@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Bitcoin calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <div class="calculatorBlock">
+      <!-- BTC INPUT-->
+      <div class="inputBox">
+        <input type="number" required="required" class="BTC" />
+        <span>Введіть курс BTC</span>
+      </div>
+
+      <!-- USD INPUT-->
+
+      <div class="inputBox">
+        <input type="number" required="required" class="USD" />
+        <span>Введіть суму USD</span>
+      </div>
+
+      <!-- CALC BTN-->
+      <button data-action="calc" class="button">
+        <span>Підрахувати</span><i></i>
+      </button>
+    </div>
+
+    <!-- Result-->
+    <span class="result"></span>
+  </body>
+  <script src="main.js"></script>
+</html>
